@@ -1,28 +1,27 @@
 {
-  "name": "typescript-boilerplate-package",
+  "name": "rn-date",
   "version": "1.0.3",
   "author": "maxgfr",
   "license": "MIT",
-  "description": "A typescript boilerplate using swc to release a package on npm",
+  "description": "A zero-dependency library which fixes the date parsing issue in React Native with Android",
   "main": "./build/index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/maxgfr/typescript-boilerplate-package.git"
+    "url": "https://github.com/maxgfr/rn-date.git"
   },
   "bugs": {
-    "url": "https://github.com/maxgfr/typescript-boilerplate-package/issues"
+    "url": "https://github.com/maxgfr/rn-date/issues"
   },
-  "homepage": "https://github.com/maxgfr/typescript-boilerplate-package#readme",
+  "homepage": "https://github.com/maxgfr/rn-date#readme",
   "files": [
     "build"
   ],
   "keywords": [
-    "boilerplate",
-    "typescript",
-    "swc",
-    "package",
-    "release",
-    "github"
+    "rn-date",
+    "date",
+    "react",
+    "react-native",
+    "android"
   ],
   "scripts": {
     "start": "node build/index.js",

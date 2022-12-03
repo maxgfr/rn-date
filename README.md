@@ -1,24 +1,17 @@
-# typescript-boilerplate-package
+# rn-date
 
-`typescript-boilerplate-package` is a package that helps you to create a typescript project with a nice structure. It uses [semantic-release](https://github.com/semantic-release/semantic-release) to publish your package on npm and generate a changelog.
+`rn-date` is a zero-dependency library which fixes the date parsing issue in React Native with Android.
+
+## Installation
+
+```bash
+yarn add rn-date
+```
 
 ## Usage
 
-After cloning this repository or using it as a template, you have to follow these steps:
-
-1. Grant permission of your repository to allow `semantic-release` to change dynamically the version of the package.
-
-![Alt Text](https://raw.githubusercontent.com/maxgfr/typescript-boilerplate-package/main/.github/assets/permissions.png)
-
-2. Set `NPM_TOKEN` in your Github actions secret.
-
-![Alt Text](https://raw.githubusercontent.com/maxgfr/typescript-boilerplate-package/main/.github/assets/token.png)
-
-## Test this boilerplate
-
-To test it, you can install it with `npm install typescript-boilerplate-package`. Then :
-
 ```ts
-import {sayHello} from "typescript-boilerplate-package";
-sayHello();
+import { RnDate } from 'rn-date';
+
+const date = new RnDate('2020-01-01T00:00:00.000Z'); // instead of new Date('2020-01-01T00:00:00.000Z')
 ```
