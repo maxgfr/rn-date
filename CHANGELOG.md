@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/maxgfr/rn-date/compare/v1.0.0...v1.0.1) (2022-12-03)
+
+
+### Bug Fixes
+
+* date with no param ([dd4147b](https://github.com/maxgfr/rn-date/commit/dd4147b4b42f2d89d95782f5d5ef842ee6fa535d))
+
 # 1.0.0 (2022-12-03)
 
 
