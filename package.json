@@ -1,6 +1,6 @@
 {
   "name": "rn-date",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "author": "maxgfr",
   "license": "MIT",
   "description": "A zero-dependency library which fixes the date parsing issue in React Native with Android",
